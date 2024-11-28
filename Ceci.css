@@ -180,7 +180,7 @@
     border: 1px solid rgba(189, 153, 11, 0.7);
     padding: 10px;
     border-radius: 4px;
-    background: linear-gradient(to right, rgba(153, 102, 255, 0.17), rgba(153, 102, 255, 0.02), rgba(153, 102, 255, 0.37));
+    background: linear-gradient(to right, rgba(153, 102, 255, 0.22), rgba(153, 102, 255, 0.07), rgba(153, 102, 255, 0.37));
 }
 
 /* Stat Bars with Fade Effect and Individual Colors */
@@ -199,19 +199,19 @@
 }
 
 .aso-stat-strength {
-    background: linear-gradient(to left, rgba(255, 99, 132, 0), rgba(255, 99, 132, 0.7), rgba(255, 99, 132, 0));
+    background: linear-gradient(to left, rgba(255, 99, 132, 0), rgba(255, 99, 132, 0.9), rgba(255, 99, 132, 0));
 }
 
 .aso-stat-defense {
-    background: linear-gradient(to left, rgba(75, 192, 192, 0), rgba(75, 192, 174, 0.7), rgba(75, 192, 192, 0));
+    background: linear-gradient(to left, rgba(75, 192, 192, 0), rgba(75, 192, 174, 0.9), rgba(75, 192, 192, 0));
 }
 
 .aso-stat-agility {
-    background: linear-gradient(to left, rgba(161, 135, 7, 0), rgba(161, 135, 7, 0.7), rgba(161, 135, 7, 0));
+    background: linear-gradient(to left, rgba(161, 135, 7, 0), rgba(161, 135, 7, 0.9), rgba(161, 135, 7, 0));
 }
 
 .aso-stat-magic {
-    background: linear-gradient(to left, rgba(54, 162, 235, 0), rgba(54, 162, 235, 0.7), rgba(54, 162, 235, 0));
+    background: linear-gradient(to left, rgba(54, 162, 235, 0), rgba(54, 162, 235, 0.9), rgba(54, 162, 235, 0));
 }
 
 .aso-stat-name {
@@ -250,11 +250,11 @@
 }
 
 .aso-command-entry:nth-child(odd) {
-    background: linear-gradient(to left, rgba(207, 64, 255, 0), rgba(207, 64, 255, 0.5), rgba(207, 64, 255, 0));
+    background: linear-gradient(to left, rgba(207, 64, 255, 0), rgba(207, 64, 255, 0.7), rgba(207, 64, 255, 0));
 }
 
 .aso-command-entry:nth-child(even) {
-    background: linear-gradient(to left, rgba(255, 102, 227, 0), rgba(255, 102, 227, 0.5), rgba(255, 102, 227, 0));
+    background: linear-gradient(to left, rgba(255, 102, 227, 0), rgba(255, 102, 227, 0.7), rgba(255, 102, 227, 0));
 }
 
 /* Command Deck code from standard site template */
