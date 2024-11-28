@@ -198,19 +198,19 @@
 }
 
 .aso-stat-strength {
-    background: linear-gradient(to left, rgba(255, 99, 132, 0.12), rgba(255, 99, 132, 0.9), rgba(255, 99, 132, 0));
+    background: linear-gradient(to left, rgba(255, 99, 132, 0.22), rgba(255, 99, 132, 0.95), rgba(255, 99, 132, 0));
 }
 
 .aso-stat-defense {
-    background: linear-gradient(to left, rgba(75, 192, 192, 0.12), rgba(75, 192, 174, 0.9), rgba(75, 192, 192, 0));
+    background: linear-gradient(to left, rgba(75, 192, 192, 0.22), rgba(75, 192, 174, 0.95), rgba(75, 192, 192, 0));
 }
 
 .aso-stat-agility {
-    background: linear-gradient(to left, rgba(161, 135, 7, 0.12), rgba(161, 135, 7, 0.9), rgba(161, 135, 7, 0));
+    background: linear-gradient(to left, rgba(161, 135, 7, 0.22), rgba(161, 135, 7, 0.95), rgba(161, 135, 7, 0));
 }
 
 .aso-stat-magic {
-    background: linear-gradient(to left, rgba(54, 162, 235, 0.12), rgba(54, 162, 235, 0.9), rgba(54, 162, 235, 0));
+    background: linear-gradient(to left, rgba(54, 162, 235, 0.22), rgba(54, 162, 235, 0.95), rgba(54, 162, 235, 0));
 }
 
 .aso-stat-name {
