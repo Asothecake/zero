@@ -178,7 +178,8 @@
 .aso-content-visible {
     display: block;
     border: 1px solid rgba(189, 153, 11, 0.7);
-    padding: 10px;border-radius: 4px;
+    padding: 10px;
+    border-radius: 4px;
 }
 
 /* Stat Bars with Fade Effect and Individual Colors */
