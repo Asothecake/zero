@@ -258,7 +258,7 @@
 
 .single-command {
 width: 75%;
-background: #33b4df;
+background: #2694b8;
 color: white;
 border-radius: 8px 0px 8px 0px;
 height: calc(20px * (var(--mastered) + 1));
@@ -266,6 +266,8 @@ margin: 5px 0;
 padding: 4px;
 text-align: left;
 opacity: calc(var(--active) + 0.5);
+border-radius: 3px;
+border: 1px solid rgb(43, 28, 130);
 box-shadow: 0px 4px 10px rgba(0, 7, 44, 0.456);
 }
 
