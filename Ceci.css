@@ -25,6 +25,7 @@
     justify-content: space-between;
     align-items: flex-start;
     padding: 8px 12px;
+    background-color: #fafafa;
     border-radius: 8px 8px 0 0;
     gap: 10px;
 }
@@ -251,7 +252,7 @@
 
 .aso-command-entry:nth-child(even) {
     background: linear-gradient(to left, rgba(153, 102, 255, 0), rgba(153, 102, 255, 0.2), rgba(153, 102, 255, 0));
-}
+}/* Command Deck code from standard site template */
 
 /* Command Deck code from standard site template */
 
