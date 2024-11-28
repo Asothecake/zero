@@ -272,7 +272,7 @@ box-shadow: 0px 4px 10px rgba(0, 7, 44, 0.456);
 
 /* Styling for the Stats container */
 .aso-stats-content {
-    background: linear-gradient(to right, rgba(255, 150, 102, 0.27), rgba(255, 150, 102, 0.12), rgba(255, 150, 102, 0.42));
+    background: linear-gradient(to left, rgba(51, 45, 43, 0.47), rgba(51, 45, 43, 0.12));
 }
 
 /* Styling for the Commands container */
@@ -283,7 +283,7 @@ box-shadow: 0px 4px 10px rgba(0, 7, 44, 0.456);
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     color: #1f2636;
     line-height: 1.6;
-    background: linear-gradient(to right, rgba(255, 102, 227, 0.02), rgba(255, 102, 227, 0.37));
+    background: linear-gradient(to left, rgba(255, 102, 227, 0.47), rgba(255, 102, 227, 0.12));
     border-radius: 4px;
 }
 
@@ -295,7 +295,7 @@ box-shadow: 0px 4px 10px rgba(0, 7, 44, 0.456);
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     color: #1f2636;
     line-height: 1.6;
-    background: linear-gradient(to right, rgba(207, 64, 255, 0.02), rgba(207, 64, 255, 0.37));
+    background: linear-gradient(to left, rgba(207, 64, 255, 0.47), rgba(207, 64, 255, 0.12));
     border-radius: 4px;
 }
 
