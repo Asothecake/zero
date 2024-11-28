@@ -164,7 +164,7 @@
 .aso-words-line span {
     font-weight: bold;
     text-transform: uppercase;
-    color: #697ecd;
+    color: #b66616;
     font-size: 11px;
     cursor: pointer;
 }
@@ -273,7 +273,7 @@ box-shadow: 0px 4px 10px rgba(0, 7, 44, 0.456);
 /* Styling for the Stats container */
 .aso-stats-content {
     background-color: #facf6a;
-    background: linear-gradient(to right, rgba(207, 166, 68, 0.37), rgba(207, 166, 68, 0.02));
+    background: linear-gradient(to right, rgba(207, 68, 103, 0.47), rgba(207, 68, 103, 0.02));
 }
 
 /* Styling for the Commands container */
