@@ -272,7 +272,7 @@ box-shadow: 0px 4px 10px rgba(0, 7, 44, 0.456);
 
 /* Styling for the Stats container */
 .aso-stats-content {
-    background: linear-gradient(to right, rgba(123, 66, 152, 0.37), rgba(123, 66, 152, 0.02));
+    background-color: #b45c2559
 }
 
 /* Styling for the Commands container */
