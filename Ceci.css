@@ -261,7 +261,7 @@ background: rgb(43, 28, 130);
 border-radius: 8px 0px 8px 0px;
 height: calc(20px * (var(--mastered) + 1));
 margin: 5px 0;
-padding: 4px 0;
+padding: 10px 0;
 text-align: left;
 opacity: calc(var(--active) + 0.5);
 border: 4px solid rgb(66, 159, 220);
