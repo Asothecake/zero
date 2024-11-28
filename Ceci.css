@@ -195,19 +195,19 @@
 }
 
 .aso-stat-strength {
-    background: linear-gradient(to left, rgba(255, 99, 132, 0), rgba(255, 99, 132, 0.2), rgba(255, 99, 132, 0));
+    background: linear-gradient(to left, rgba(255, 99, 132, 0), rgba(255, 99, 132, 0.7), rgba(255, 99, 132, 0));
 }
 
 .aso-stat-defense {
-    background: linear-gradient(to left, rgba(75, 192, 192, 0), rgba(75, 192, 192, 0.2), rgba(75, 192, 192, 0));
+    background: linear-gradient(to left, rgba(75, 192, 192, 0), rgba(75, 192, 192, 0.7), rgba(75, 192, 192, 0));
 }
 
 .aso-stat-agility {
-    background: linear-gradient(to left, rgba(255, 205, 86, 0), rgba(255, 205, 86, 0.2), rgba(255, 205, 86, 0));
+    background: linear-gradient(to left, rgba(255, 205, 86, 0), rgba(255, 205, 86, 0.7), rgba(255, 205, 86, 0));
 }
 
 .aso-stat-magic {
-    background: linear-gradient(to left, rgba(54, 162, 235, 0), rgba(54, 162, 235, 0.2), rgba(54, 162, 235, 0));
+    background: linear-gradient(to left, rgba(54, 162, 235, 0), rgba(54, 162, 235, 0.7), rgba(54, 162, 235, 0));
 }
 
 .aso-stat-name {
@@ -216,12 +216,12 @@
     font-family: 'Verdana', Geneva, sans-serif;
     font-size: 14px;
     letter-spacing: 3px;
-    opacity: 0.4;
+    opacity: 0.6;
     margin-right: 10px;
 }
 
 .aso-stat-die {
-    opacity: 0.7;
+    opacity: 0.8;
     margin-right: 3px;
 }
 
@@ -317,7 +317,7 @@ opacity: calc(var(--active) + 0.5);
 .aso-conditions-entry {
     background: linear-gradient(to right, 
                                 rgba(255, 99, 132, 0.04), /* Closer to background color at start */
-                                rgba(255, 99, 132, 0.6),  /* Stronger color in the middle */
+                                rgba(255, 99, 132, 0.7),  /* Stronger color in the middle */
                                 rgba(255, 99, 132, 0.04)  /* Closer to background color at end */
                                 );
 }
@@ -325,7 +325,7 @@ opacity: calc(var(--active) + 0.5);
 .aso-cooldowns-entry {
     background: linear-gradient(to right, 
                                 rgba(54, 162, 235, 0.04), /* Closer to background color at start */
-                                rgba(54, 162, 235, 0.6),  /* Stronger color in the middle */
+                                rgba(54, 162, 235, 0.7),  /* Stronger color in the middle */
                                 rgba(54, 162, 235, 0.04)  /* Closer to background color at end */
                                 );
 }
