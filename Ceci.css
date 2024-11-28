@@ -238,7 +238,7 @@
     padding: 4px 0;
     font-weight: bold;
     font-size: 11px;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
     letter-spacing: 1px;
     color: #3e4a61;
     background: linear-gradient(to right, rgba(245, 247, 250, 0), rgba(0, 0, 0, 0.05), rgba(245, 247, 250, 0));
@@ -259,7 +259,7 @@
 .single-command {
 width: 75%;
 background: #2694b8;
-color: white;
+color: #d6d0d0;
 border-radius: 8px 0px 8px 0px;
 height: calc(20px * (var(--mastered) + 1));
 margin: 5px 0;
