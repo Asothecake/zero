@@ -192,7 +192,6 @@
     font-size: 13px;
     font-weight: bold;
     color: #1f2636;
-    color: #aeae31;
     background: linear-gradient(to left, rgba(245, 247, 250, 0), rgba(0, 0, 0, 0.05), rgba(245, 247, 250, 0));
     box-shadow: none;
     border-radius: 0;
@@ -232,7 +231,7 @@
 .aso-stat-value-box {
     font-weight: bold;
     font-size: 14px;
-    color:  #f7f780;
+    color:  #5c667b;
     position: relative;
 }
 
