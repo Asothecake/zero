@@ -64,8 +64,8 @@
 .aso-hp-bar-container {
     position: relative;
     height: 8px;
-    background-color: rgba(105, 105, 105, 0.1);
-    border: 1px solid rgba(105, 105, 105, 0.5);
+    background-color: rgba(105, 105, 105, 0.3);
+    border: 1px solid rgba(105, 105, 105, 0.7);
     border-radius: 5px;
     overflow: hidden;
     flex-grow: 1;
@@ -316,17 +316,17 @@ opacity: calc(var(--active) + 0.5);
 
 .aso-conditions-entry {
     background: linear-gradient(to right, 
-                                rgba(255, 99, 132, 0.02), /* Closer to background color at start */
-                                rgba(255, 99, 132, 0.3),  /* Stronger color in the middle */
-                                rgba(255, 99, 132, 0.02)  /* Closer to background color at end */
+                                rgba(255, 99, 132, 0.22), /* Closer to background color at start */
+                                rgba(255, 99, 132, 0.5),  /* Stronger color in the middle */
+                                rgba(255, 99, 132, 0.22)  /* Closer to background color at end */
                                 );
 }
 
 .aso-cooldowns-entry {
     background: linear-gradient(to right, 
-                                rgba(54, 162, 235, 0.02), /* Closer to background color at start */
-                                rgba(54, 162, 235, 0.3),  /* Stronger color in the middle */
-                                rgba(54, 162, 235, 0.02)  /* Closer to background color at end */
+                                rgba(54, 162, 235, 0.22), /* Closer to background color at start */
+                                rgba(54, 162, 235, 0.5),  /* Stronger color in the middle */
+                                rgba(54, 162, 235, 0.22)  /* Closer to background color at end */
                                 );
 }
 
