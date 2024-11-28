@@ -231,7 +231,7 @@
 .aso-stat-value-box {
     font-weight: bold;
     font-size: 14px;
-    color:  525362;
+    color:  #5b5f9f;
     position: relative;
 }
 
@@ -272,7 +272,7 @@ box-shadow: 0px 4px 10px rgba(0, 7, 44, 0.456);
 
 /* Styling for the Stats container */
 .aso-stats-content {
-    background-color: #b45c2559
+    background-color: #b45c2533
 }
 
 /* Styling for the Commands container */
