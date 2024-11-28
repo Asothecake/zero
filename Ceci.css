@@ -1,5 +1,9 @@
 /* CSS Styles for the Aso Template */
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300&display=swap" rel="stylesheet">
+
 /* General Box Styling */
 .outer-aso-box {
     background-color: #434cc2;
@@ -235,9 +239,9 @@
 /* Command Entries */
 .aso-command-entry {
     margin: 3px 0;
-    padding: 4px 0;
+    padding: 6px 0;
     font-size: 13px;
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-family: Parkinsans, 'Trebuchet MS', Helvetica, sans-serif;
     letter-spacing: 1px;
     color: white;
     background: linear-gradient(to right, rgba(245, 247, 250, 0), rgba(0, 0, 0, 0.05), rgba(245, 247, 250, 0));
@@ -261,10 +265,9 @@ background: rgb(43, 28, 130);
 border-radius: 8px 0px 8px 0px;
 height: calc(20px * (var(--mastered) + 1));
 margin: 5px 0;
-padding: 4px;
 text-align: left;
 opacity: calc(var(--active) + 0.5);
-border: 4px solid rgb(79, 170, 230);
+border: 4px solid rgb(66, 159, 220);
 box-shadow: 0px 4px 10px rgba(0, 7, 44, 0.456);
 }
 
