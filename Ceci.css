@@ -256,13 +256,6 @@
 
 /* Command Deck code from standard site template */
 
-.commands {
-padding: 8px;
-flex-grow: 1;
-}
-.actions {
-padding: 8px;
-}
 .single-command {
 width: 68%;
 background: dodgerblue;
@@ -271,7 +264,7 @@ border-radius: 8px 0px 8px 0px;
 height: calc(20px * (var(--mastered) + 1));
 margin: 5px 0;
 padding: 4px;
-text-align: right;
+text-align: left;
 opacity: calc(var(--active) + 0.5);
 }
 
