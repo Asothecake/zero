@@ -277,14 +277,7 @@ box-shadow: 0px 4px 10px rgba(0, 7, 44, 0.456);
 
 /* Styling for the Commands container */
 .aso-commands-content {
-    padding: 10px;
-    margin-top: 8px;
-    font-size: 12px;
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    color: #1f2636;
-    line-height: 1.6;
-    background: linear-gradient(to right, rgba(255, 102, 227, 0.52), rgba(255, 102, 227, 0.07));
-    border-radius: 4px;
+    background: linear-gradient(to right, rgba(249, 137, 229, 0.52), rgba(249, 137, 229, 0.07));
 }
 
 /* Styling for the Style container */
