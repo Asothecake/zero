@@ -180,7 +180,7 @@
     border: 1px solid rgba(189, 153, 11, 0.7);
     padding: 10px;
     border-radius: 4px;
-    background: linear-gradient(to right, rgba(153, 102, 255, 0.02), rgba(153, 102, 255, 0.37));
+    background: linear-gradient(to right, rgba(153, 102, 255, 0.17), rgba(153, 102, 255, 0.02), rgba(153, 102, 255, 0.37));
 }
 
 /* Stat Bars with Fade Effect and Individual Colors */
