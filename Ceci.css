@@ -247,11 +247,11 @@
 }
 
 .aso-command-entry:nth-child(odd) {
-    background: linear-gradient(to right, rgba(255, 159, 64, 0), rgba(255, 159, 64, 0.2), rgba(255, 159, 64, 0));
+    background: linear-gradient(to right, rgba(255, 159, 64, 0), rgba(255, 159, 64, 0.4), rgba(255, 159, 64, 0));
 }
 
 .aso-command-entry:nth-child(even) {
-    background: linear-gradient(to right, rgba(153, 102, 255, 0), rgba(153, 102, 255, 0.2), rgba(153, 102, 255, 0));
+    background: linear-gradient(to right, rgba(153, 102, 255, 0), rgba(153, 102, 255, 0.4), rgba(153, 102, 255, 0));
 }
 
 /* Command Deck code from standard site template */
