@@ -199,7 +199,7 @@
 }
 
 .aso-stat-defense {
-    background: linear-gradient(to left, rgba(75, 192, 192, 0), rgba(75, 192, 192, 0.7), rgba(75, 192, 192, 0));
+    background: linear-gradient(to left, rgba(75, 192, 192, 0), rgba(75, 192, 174, 0.7), rgba(75, 192, 192, 0));
 }
 
 .aso-stat-agility {
