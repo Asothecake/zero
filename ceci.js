@@ -1,8 +1,8 @@
 // JavaScript for toggling visibility of sections (Stats, Commands, Style)
 function toggleVisibility(element, className) {
     // Find the closest container element that contains all relevant parts
-    const container = element.closest('.aso-post-container');
-    
+    const container = element.closest('.aso-template-2 .aso-post-container');
+
     // Find the relevant section within the container and toggle its visibility
     const section = container.querySelector(`.${className}`);
     section.classList.toggle('aso-content-hidden');
@@ -12,7 +12,7 @@ function toggleVisibility(element, className) {
 // JavaScript for updating the resource bar fill percentage dynamically
 document.addEventListener("DOMContentLoaded", () => {
     // Update HP bar
-    document.querySelectorAll(".aso-hp-bar-container").forEach(container => {
+    document.querySelectorAll(".aso-template-2 .aso-hp-bar-container").forEach(container => {
         const current = parseInt(container.getAttribute("data-current"), 10);
         const max = parseInt(container.getAttribute("data-max"), 10);
         const fill = document.createElement('div');
@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     // Update IP bar
-    document.querySelectorAll(".aso-resource-bar-wrapper").forEach(wrapper => {
+    document.querySelectorAll(".aso-template-2 .aso-resource-bar-wrapper").forEach(wrapper => {
         const current = parseInt(wrapper.getAttribute("data-current"), 10);
         const max = parseInt(wrapper.getAttribute("data-max"), 10);
         wrapper.innerHTML = ""; // Clear existing units
@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     // Update Limit bar
-    document.querySelectorAll(".aso-limit-bar-wrapper").forEach(wrapper => {
+    document.querySelectorAll(".aso-template-2 .aso-limit-bar-wrapper").forEach(wrapper => {
         const current = parseInt(wrapper.getAttribute("data-current"), 10);
         const max = parseInt(wrapper.getAttribute("data-max"), 10);
         wrapper.innerHTML = ""; // Clear existing units
