@@ -1,7 +1,7 @@
 /* CSS Styles for the Aso Template */
 
 /* General Box Styling */
-.outer-aso-box {
+.aso-post-container .outer-aso-box {
     background-color: #434cc2;
     padding: 10px 15px;
     margin: 20px auto;
@@ -20,7 +20,7 @@
 }
 
 /* Word Count Box */
-.aso-word-count-box {
+.aso-post-container .aso-word-count-box {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -31,21 +31,21 @@
 }
 
 /* Resource Section for HP, IP, and Limit Bars */
-.aso-resource-section {
+.aso-post-container .aso-resource-section {
     display: flex;
     flex-direction: column;
     gap: 6px;
     flex: 1;
 }
 
-.aso-resource-bar-group {
+.aso-post-container .aso-resource-bar-group {
     display: flex;
     gap: 6px;
     align-items: center;
     margin-top: 10px;
 }
 
-.aso-resource-bar-container {
+.aso-post-container .aso-resource-bar-container {
     display: flex;
     align-items: center;
     gap: 4px;
@@ -53,7 +53,7 @@
     flex: 1;
 }
 
-.aso-resource-bar-container img {
+.aso-post-container .aso-resource-bar-container img {
     width: 20px;
     height: 20px;
     margin-right: 4px;
@@ -61,7 +61,7 @@
 }
 
 /* HP Bar Styling */
-.aso-hp-bar-container {
+.aso-post-container .aso-hp-bar-container {
     position: relative;
     height: 8px;
     background-color: rgba(105, 105, 105, 0.3);
@@ -71,15 +71,15 @@
     flex-grow: 1;
 }
 
-.aso-hp-bar-fill {
+.aso-post-container .aso-hp-bar-fill {
     height: 100%;
-    background-color: #e74c3c; /* Red for HP */
+    background-color: #e74c3c;
     transition: width 0.3s ease;
 }
 
 /* IP and Limit Bar Styling */
-.aso-resource-bar-wrapper,
-.aso-limit-bar-wrapper {
+.aso-post-container .aso-resource-bar-wrapper,
+.aso-post-container .aso-limit-bar-wrapper {
     display: flex;
     height: 8px;
     background-color: rgba(105, 105, 105, 0.3);
@@ -90,30 +90,26 @@
     flex-grow: 1;
 }
 
-.aso-resource-unit {
+.aso-post-container .aso-resource-unit {
     flex-grow: 1;
     transition: background-color 0.3s ease;
 }
 
 /* Updated Specific Colors for Each Resource Bar */
-
-/* IP Bar - Green */
-.aso-resource-bar-wrapper .aso-resource-unit {
-    background-color: #208e26; /* Green for IP */
+.aso-post-container .aso-resource-bar-wrapper .aso-resource-unit {
+    background-color: #208e26;
 }
 
-/* Limit Bar - Blue */
-.aso-limit-bar-wrapper .aso-resource-unit {
-    background-color: #6f7d93; /* Blue for Limit */
+.aso-post-container .aso-limit-bar-wrapper .aso-resource-unit {
+    background-color: #6f7d93;
 }
 
-/* Unfilled Units */
-.aso-resource-unit.unfilled {
+.aso-post-container .aso-resource-unit.unfilled {
     background-color: rgba(105, 105, 105, 0.3);
 }
 
 /* Image Box */
-.aso-image-box {
+.aso-post-container .aso-image-box {
     flex-shrink: 0;
     margin-left: 16px;
     display: flex;
@@ -121,7 +117,7 @@
     justify-content: center;
 }
 
-.aso-image-box img {
+.aso-post-container .aso-image-box img {
     border-radius: 50%;
     border: 1px solid rgba(160, 160, 160, 0.5);
     width: 65px;
@@ -129,7 +125,7 @@
 }
 
 /* Character Box */
-.aso-character-box {
+.aso-post-container .aso-character-box {
     background-color: #facf6a;
     margin-top: 8px;
     padding: 12px;
@@ -140,20 +136,8 @@
     box-sizing: border-box;
 }
 
-.aso-character-box sp {
-    color: #697ecd;
-    font-style: italic;
-    font-weight: bold;
-}
-
-.aso-character-box fp {
-    color: #5F9EA0;
-    font-style: italic;
-    font-weight: bold;
-}
-
-/* Words Line Toggle (Stats, Commands, Style) */
-.aso-words-line {
+/* Word Toggle */
+.aso-post-container .aso-words-line {
     display: flex;
     justify-content: space-between;
     gap: 8px;
@@ -161,7 +145,7 @@
     width: 100%;
 }
 
-.aso-words-line span {
+.aso-post-container .aso-words-line span {
     font-weight: bold;
     text-transform: uppercase;
     color: #b66616;
@@ -170,118 +154,54 @@
 }
 
 /* Hidden and Visible Content */
-.aso-content-hidden {
+.aso-post-container .aso-content-hidden {
     display: none;
     font-size: 11px;
 }
 
-.aso-content-visible {
+.aso-post-container .aso-content-visible {
     display: block;
     border: 1px solid rgba(189, 153, 11, 0.7);
     padding: 10px;
     border-radius: 4px;
 }
 
-/* Stat Bars with Fade Effect and Individual Colors */
-.aso-stat-entry {
+/* Stat Bars */
+.aso-post-container .aso-stat-entry {
     display: flex;
     align-items: center;
     margin: 6px 0;
     padding: 8px 0;
-    position: relative;
     font-size: 13px;
     font-weight: bold;
     color: #1f2636;
-    background: linear-gradient(to left, rgba(245, 247, 250, 0), rgba(0, 0, 0, 0.05), rgba(245, 247, 250, 0));
-    box-shadow: none;
-    border-radius: 0;
-}
-
-.aso-stat-strength {
-    background: linear-gradient(to left, rgba(255, 99, 132, 0.22), rgba(255, 99, 132, 0.95), rgba(255, 99, 132, 0));
-}
-
-.aso-stat-defense {
-    background: linear-gradient(to left, rgba(75, 192, 192, 0.22), rgba(75, 192, 174, 0.95), rgba(75, 192, 192, 0));
-}
-
-.aso-stat-agility {
-    background: linear-gradient(to left, rgba(161, 135, 7, 0.22), rgba(161, 135, 7, 0.95), rgba(161, 135, 7, 0));
-}
-
-.aso-stat-magic {
-    background: linear-gradient(to left, rgba(54, 162, 235, 0.22), rgba(54, 162, 235, 0.95), rgba(54, 162, 235, 0));
-}
-
-.aso-stat-name {
-    flex: 1;
-    text-align: right;
-    font-family: 'Verdana', Geneva, sans-serif;
-    font-size: 14px;
-    letter-spacing: 3px;
-    opacity: 0.7;
-    margin-right: 10px;
-}
-
-.aso-stat-die {
-    opacity: 0.9;
-    margin-right: 3px;
-}
-
-.aso-stat-value-box {
-    font-weight: bold;
-    font-size: 14px;
-    color:  #5b5f9f;
-    position: relative;
 }
 
 /* Command Entries */
-.aso-command-entry {
+.aso-post-container .aso-command-entry {
     margin: 3px 0;
     padding: 2px 0;
     font-size: 13px;
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     letter-spacing: 1px;
     color: white;
-    background: linear-gradient(to right, rgba(245, 247, 250, 0), rgba(0, 0, 0, 0.05), rgba(245, 247, 250, 0));
-    box-shadow: none;
-    border-radius: 0;
 }
 
-.aso-command-entry:nth-child(odd) {
+.aso-post-container .aso-command-entry:nth-child(odd) {
     background: linear-gradient(to left, rgba(207, 64, 255, 0), rgba(207, 64, 255, 0.7), rgba(207, 64, 255, 0));
 }
 
-.aso-command-entry:nth-child(even) {
+.aso-post-container .aso-command-entry:nth-child(even) {
     background: linear-gradient(to left, rgba(255, 102, 227, 0), rgba(255, 102, 227, 0.7), rgba(255, 102, 227, 0));
 }
 
-/* Command Deck code from standard site template */
-
-.single-command {
-width: 75%;
-background: rgb(43, 28, 130);
-border-radius: 8px 0px 8px 0px;
-height: calc(20px * (var(--mastered) + 1));
-margin: 5px 0;
-text-align: left;
-opacity: calc(var(--active) + 0.5);
-border: 4px solid rgb(66, 159, 220);
-box-shadow: 0px 4px 10px rgba(0, 7, 44, 0.456);
-}
-
-/* Styling for the Stats container */
-.aso-stats-content {
-    background-color: #b45c2533
-}
-
 /* Styling for the Commands container */
-.aso-commands-content {
+.aso-post-container .aso-commands-content {
     background: linear-gradient(to right, rgba(249, 137, 229, 0.62), rgba(249, 137, 229, 0.12));
 }
 
 /* Styling for the Style container */
-.aso-style-content {
+.aso-post-container .aso-style-content {
     padding: 10px;
     margin-top: 8px;
     font-size: 12px;
@@ -292,14 +212,14 @@ box-shadow: 0px 4px 10px rgba(0, 7, 44, 0.456);
     border-radius: 4px;
 }
 
-.aso-style-content p {
+.aso-post-container .aso-style-content p {
     margin-bottom: 8px;
     border-bottom: 1px solid rgba(160, 160, 160, 0.2);
     padding-bottom: 4px;
 }
 
-/* Styling for Conditions and Cooldowns Box */
-.aso-conditions-box {
+/* Conditions & Cooldowns */
+.aso-post-container .aso-conditions-box {
     background-color: #facf6a;
     margin-top: 10px;
     padding: 10px 15px;
@@ -308,61 +228,4 @@ box-shadow: 0px 4px 10px rgba(0, 7, 44, 0.456);
     font-size: 11px;
     color: #1f2636;
     line-height: 1.6;
-}
-
-.aso-conditions-entry,
-.aso-cooldowns-entry, 
-.aso-resistance-entry,
-.aso-weakness-entry {
-    display: flex;
-    justify-content: space-between;
-    padding: 4px 0;
-    font-weight: bold;
-    letter-spacing: 1px;
-}
-
-.aso-conditions-entry {
-    background: linear-gradient(to right, 
-                                rgba(255, 99, 132, 0.04), /* Closer to background color at start */
-                                rgba(255, 99, 132, 0.7),  /* Stronger color in the middle */
-                                rgba(255, 99, 132, 0.04)  /* Closer to background color at end */
-                                );
-}
-
-.aso-cooldowns-entry {
-    background: linear-gradient(to right, 
-                                rgba(54, 162, 235, 0.04), /* Closer to background color at start */
-                                rgba(54, 162, 235, 0.7),  /* Stronger color in the middle */
-                                rgba(54, 162, 235, 0.04)  /* Closer to background color at end */
-                                );
-}
-
-.aso-resistance-entry {
-    background: linear-gradient(to right, 
-                                rgba(115, 255, 99, 0.04), /* Closer to background color at start */
-                                rgba(115, 255, 99, 0.7),  /* Stronger color in the middle */
-                                rgba(115, 255, 99, 0.04)  /* Closer to background color at end */
-                                );
-}
-
-.aso-weakness-entry {
-    background: linear-gradient(to right, 
-                                rgba(114, 54, 235, 0.04), /* Closer to background color at start */
-                                rgba(114, 54, 235, 0.7),  /* Stronger color in the middle */
-                                rgba(114, 54, 235, 0.04)  /* Closer to background color at end */
-                                );
-}
-
-.aso-conditions-label,
-.aso-cooldowns-label,
-.aso-resistance-label,
-.aso-weakness-label {
-    opacity: 0.45;
-    text-transform: uppercase;
-    font-size: 12px;
-    color: #1f2636;
-}
-
-.aso-entry-value {
-    text-align: right;
 }
